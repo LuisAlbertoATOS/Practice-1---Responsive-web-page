@@ -1,6 +1,40 @@
 .options{
+    display: block;
     background-color: $secondary-color;
     color: $white;
-    height: 400px;
-    width: 100vw;
+    height: 425px;
+    width: 100%;
+
+    padding: 25px, 25px, 25px, 25px;
+    text-align: center;
+    i{
+        margin-top: 20px;
+        color: $white;
+        font-size: xxx-large;
+    }
+
+    h1{
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    h2{
+        margin-bottom: 0;
+    }
+
+    .options-logos{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+
+        .dog-logo{
+            width: 100%;
+            filter: brightness(1000%)
+        }
+    }
+}
+
+@for $i from 1 through 5 {
+    .options-logos:nth-child(#{$i}){
+        filter: brightness($i * 200%);
+    }
 }

@@ -1,18 +1,17 @@
 @import 'config';
 
 .home{
-    background-color: $white;
-    color: $primary-color;
-    height: 86vh;
+    background-color: $primary-color;
+    color: $white;
+    height: 90vh;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    margin: 0px 0px 50px 50px;
+    padding: 0px 50px 0px;
     font-size: x-large;
 
     img{
-        padding-right: 100px;
         height: 70vh;
         bottom: 0;
     }

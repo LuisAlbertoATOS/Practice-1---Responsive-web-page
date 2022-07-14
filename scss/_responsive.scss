@@ -10,11 +10,15 @@
         font-size: x-large;
         height: 70vh;
         grid-template-columns: 4fr 1fr;  
-        margin: 0px 0px 75px 75px;
+        padding: 0px 75px 0px 75px;
 
         img{
-            height: 50vh;
+            height: 70vh;
         }
+    }
+
+    .options{
+        height: 470px;
     }
 }
 
@@ -26,6 +30,11 @@
             height: 70vh;
         }
     }
+
+    .options{
+        padding-top: 25px;
+        height: 500px;
+    }
 }
 
 @include media-xl{
@@ -33,8 +42,17 @@
         font-size: xx-large;
         height: 70vh;
         grid-template-columns: 3fr 1fr;
+           
+        padding: 0px 0px 100px 100px;
+        img{
+            height: 80vh;
+        }
+
         
-        
-        margin: 0px 0px 100px 100px;
+    }
+
+    .options{
+        padding-top: 25px;
+        height: 600px;
     }
 }
