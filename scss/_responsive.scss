@@ -1,0 +1,40 @@
+@include media-md{
+
+    .nav{
+        grid-template-columns: 1fr 3fr 1fr;
+        justify-content: center;
+        height: 150px;
+    }
+
+    .home{
+        font-size: x-large;
+        height: 70vh;
+        grid-template-columns: 4fr 1fr;  
+        margin: 0px 0px 75px 75px;
+
+        img{
+            height: 50vh;
+        }
+    }
+}
+
+@include media-lg{
+    .home{
+        font-size: xx-large;
+
+        img{
+            height: 70vh;
+        }
+    }
+}
+
+@include media-xl{
+    .home{
+        font-size: xx-large;
+        height: 70vh;
+        grid-template-columns: 3fr 1fr;
+        
+        
+        margin: 0px 0px 100px 100px;
+    }
+}

@@ -1,15 +1,19 @@
+@import 'config';
+
 .home{
-    background-color: rgb(203, 73, 73);
-    height: 70vh;
+    background-color: $white;
+    color: $primary-color;
+    height: 86vh;
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
-    padding-left: 100px;
-    font-size: xx-large;
+    margin: 0px 0px 50px 50px;
+    font-size: x-large;
 
     img{
         padding-right: 100px;
-        height: 60vh;
+        height: 70vh;
+        bottom: 0;
     }
 }

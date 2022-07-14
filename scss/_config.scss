@@ -1,0 +1,21 @@
+$primary-color: rgb(5, 5, 66);
+$secondary-color: rgb(92, 92, 216);
+
+$white: white;
+$complementary-color: rgb(155, 155, 155);
+
+@mixin media-md {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+@mixin media-lg {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
+@mixin media-xl {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}
