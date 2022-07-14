@@ -1,0 +1,15 @@
+.home{
+    background-color: rgb(203, 73, 73);
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding-left: 100px;
+    font-size: xx-large;
+
+    img{
+        padding-right: 100px;
+        height: 60vh;
+    }
+}
