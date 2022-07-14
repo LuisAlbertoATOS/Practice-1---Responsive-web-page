@@ -1,0 +1,53 @@
+
+@import 'config';
+
+.table{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+    background-color: $secondary-color;
+    color: $white;
+    
+    text-align: center;
+
+    h1{
+        margin: 0;
+        font-size: 3rem;
+        padding-bottom: 20px;
+    }
+
+    h2{
+        margin-bottom: 0;
+    }
+
+    &-differences{
+        background-color: $secondary-color;
+        color: $white;
+        width: 95%;
+        justify-self: center;
+        
+        table  {
+            justify-self: center;
+            width: 100%;
+            tbody{
+                text-align: center;
+            }
+        }
+    }
+    
+}
+
+td, th{
+    text-align: center;
+    border-bottom: 1px black solid;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+.bx-x-circle{
+    color: red;
+}
+
+.bx-check-circle{
+    color: limegreen;
+}

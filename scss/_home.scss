@@ -3,13 +3,17 @@
 .home{
     background-color: $primary-color;
     color: $white;
-    height: 90vh;
+    height: 110vh;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
     padding: 0px 50px 0px;
     font-size: x-large;
+
+    article{
+        width: 100%;
+    }
 
     img{
         height: 70vh;
